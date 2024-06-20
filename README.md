@@ -4,11 +4,8 @@
 <img src="https://img.shields.io/badge/JavaScript-000046?style=for-the-badge&logo=JavaScript&logoColor=white">
 <img src="https://img.shields.io/badge/Css3-000046?style=for-the-badge&logo=Css3&logoColor=white">
 <img src="https://img.shields.io/badge/VisualStudioCode-02569B?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
+### 실행 방법
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
