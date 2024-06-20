@@ -13,6 +13,6 @@
 ### 2. 프로젝트 파일로 이동
 <pre><code>cd my-quiz-app</code></pre>
 
-### 3.
+### 3. 실행
 <pre><code>npm start</code></pre>
 
