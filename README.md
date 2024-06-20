@@ -10,10 +10,9 @@
 ### 1. Git Clone
 <pre><code>https://github.com/gyur2/OpenAIservice.git</code></pre>
 
-### 2. 파일로 이동
+### 2. 프로젝트 파일로 이동
 <pre><code>cd my-quiz-app</code></pre>
 
+### 3.
+<pre><code>npm start</code></pre>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
