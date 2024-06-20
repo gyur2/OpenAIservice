@@ -1,6 +1,6 @@
 # My-Quiz
 
-<img src="https://img.shields.io/badge/React-02569B?style=for-the-badge&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=React&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-02569B?style=for-the-badge&logo=JavaScript&logoColor=white">
 <img src="https://img.shields.io/badge/Css3-02569B?style=for-the-badge&logo=Css3&logoColor=white">
 <img src="https://img.shields.io/badge/VisualStudioCode-02569B?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
