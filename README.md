@@ -10,7 +10,8 @@
 ### 1. Git Clone
 <pre><code>https://github.com/gyur2/OpenAIservice.git</code></pre>
 
-### 2. 
+### 2. 파일로 이동
+<pre><code>cd my-quiz-app</code></pre>
 
 
 ### `npm run build` fails to minify
