@@ -1,0 +1,260 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.main-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.add-quiz-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.add-quiz-button:hover {
+    background-color: #45a049;
+}
+
+/* Quiz List */
+.quiz-list {
+    margin-top: 20px;
+}
+
+.quiz-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-item:hover {
+    background-color: #e0e0e0;
+}
+
+.quiz-topic {
+    flex: 1;
+    text-align: left;
+    color: #333;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Quiz detail container */
+.quiz-detail-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.home-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.quiz-info {
+    margin-top: 20px;
+    color: #555;
+}
+
+.question {
+    margin-top: 20px;
+}
+
+.answer-buttons {
+    margin-top: 20px;
+}
+
+.answer-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.answer-button.selected {
+    background-color: #cdf9b1;
+}
+
+.answer-button.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.answer-button.incorrect {
+    background-color: #f44336;
+    color: white;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.controls button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.controls button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.quiz-app-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.question-container label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.question-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.solution-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.solution-button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.solution-button.selected {
+    background-color: #ffcccb;
+}
+
+.solution-button:hover:not(.selected) {
+    background-color: #e0e0e0;
+}
+
+.create-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.create-button:hover {
+    background-color: #45a049;
+}
