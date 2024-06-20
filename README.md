@@ -10,8 +10,9 @@
 ### 1. Git Clone
 <pre><code>https://github.com/gyur2/OpenAIservice.git</code></pre>
 
-### 2. 프로젝트 파일로 이동
-<pre><code>cd my-quiz-app</code></pre>
+### 2. 프로젝트 파일로 이동(다운로드된 파일로 이동)
+<pre><code>cd [파일위치]</code></pre>
+만약, public, src 파일 등이 보인다면 그 위치에서 바로 3으로 넘어가면 됩니다.
 
 ### 3. 실행
 <pre><code>npm start</code></pre>
