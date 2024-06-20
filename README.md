@@ -8,7 +8,7 @@
 ## 실행방법
 
 1. Git Clone
-
+<pre><code>{code}</code></pre>
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
