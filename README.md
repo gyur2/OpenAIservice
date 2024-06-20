@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://img.shields.io/badge/React-02569B?style=for-the-badge&logo=React&logoColor=white">
 
 ## Available Scripts
 
